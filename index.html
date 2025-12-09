@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">MyPortfolio</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        </nav>
+    </header>
+
+    <!-- Home -->
+    <section id="home" class="section home">
+        <h1>Hello, I'm Minduka Rai</h1>
+        <p>
+            I am 20 years old and originally from Solukhumbu.
+            Currently, I am studying in Korea in the IT faculty and pursuing my 2nd semester.
+            I am passionate about web development and learning modern technologies.
+        </p>
+
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about-section">
+        <h2>About Me</h2>
+        <p class="about-text">
+            Hello! My name is <b>Minduka Rai</b>, a 20-year-old enthusiastic IT student originally
+            from the beautiful region of <b>Solukhumbu, Nepal</b>. Currently, I am pursuing my
+            studies in <b>Information Technology</b> and continuing my academic journey in
+            <b>Korea</b>, where I am enrolled in my <b>second semester</b>.
+            <br><br>
+            I am deeply passionate about technology, especially web development, and enjoy
+            creating clean, responsive, and user-friendly websites using modern tools like
+            HTML, CSS, and JavaScript. Learning new technologies and constantly improving my
+            skills motivates me to grow both academically and professionally.
+            <br><br>
+            Beyond academics, I love <b>travelling</b> and exploring new places, cultures,
+            and ideas. Discovering new experiences helps me stay inspired, creative, and
+            open-minded. I believe that continuous learning, curiosity, and hard work are the
+            key elements to achieving success in today’s fast-evolving digital world.
+        </p>
+    </section>
+
+
+    <!-- Achievements -->
+    <section id="achievements" class="section bg">
+        <h2>Achievements</h2>
+        <ul class="list">
+            <li>Completed Web Technology Projects</li>
+            <li>Built E-commerce Website</li>
+            <li>Academic Excellence in BIT</li>
+        </ul>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section bg">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
